@@ -1,23 +1,22 @@
 {
-    "name": "grunt-kss",
+    "name": "grunt-kssnode",
     "description": "KSS styleguide generator for grunt.",
-    "version": "0.2.6",
-    "homepage": "https://github.com/t32k/grunt-kss",
+    "version": "0.2.7",
+    "homepage": "https://github.com/seansheds/grunt-kss",
     "author": {
-        "name": "Koji Ishimoto",
-        "email": "ijok.ijok@gmail.com",
-        "url": "http://t32k.me/"
+        "name": "Sean Shedlarski",
+        "email": "sean.shedlarski@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/t32k/grunt-kss.git"
+        "url": "git://github.com/seansheds/grunt-kss.git"
     },
     "bugs": {
-        "url": "https://github.com/t32k/grunt-kss/issues"
+        "url": "https://github.com/seansheds/grunt-kss/issues"
     },
     "licenses": [{
         "type": "MIT",
-        "url": "https://github.com/t32k/grunt-kss/blob/master/LICENSE-MIT"
+        "url": "https://github.com/seansheds/grunt-kss/blob/master/LICENSE-MIT"
     }],
     "main": "Gruntfile.js",
     "engines": {
@@ -27,7 +26,7 @@
         "test": "grunt test"
     },
     "dependencies": {
-        "kss": "~0.3.6"
+        "kssnode": "~0.3.9"
     },
     "devDependencies": {
         "grunt-contrib-jshint": "~0.8.0",
